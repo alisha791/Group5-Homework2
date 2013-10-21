@@ -23,6 +23,9 @@ Then run iPython Notebook from your machine with this command:
 * Open iPython Notebook in your browser and import the file 'recent_earthquakes.py'. This file will be located in the clone of this repository on your desktop. 
 
 * Open 'recent earthquakes' in iPython Notebook and run each code cell to read in <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson">live earthquake data</a>, M1.0+ Earthquakes in Past 7 Days
+  + The first cell reads in the earthquake data from JSON format, loading the data into a data frame
+  + The second cell examines a single earthquake incident and shows how the lists and dictionaries are represented, providing information on how to access keys, values and items
+  + The third cell creates a new data frame for all the earthquake incidents after cleaning the data
 
 * Run code cell 4 to cache data
 
