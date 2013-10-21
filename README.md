@@ -10,7 +10,7 @@ inside your Virtual Machine:
     sudo apt-get install python-pandas
     sudo apt-get update pandas
 
-* Clone this repository (Group5-Homework2) to your desktop via UI or command ```git clone```
+* Clone this repository (Group5-Homework2) to your desktop via UI (Clone in Desktop) or command ```git clone```
 
 Running Code
 -------------
