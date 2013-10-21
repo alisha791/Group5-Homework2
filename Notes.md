@@ -27,3 +27,13 @@ Office hours with Aaron from 11 - 1 pm
 + How to ```git push``` .ipynb and .py files to the working repository to share code and collaborate with group
 
 Problem solving was a key part to understanding how to work through the data curation stages. JSON was a completely new format that we were unfamiliar with, coupled with learning Python and working in the iPython Notebook (which our group had familiarized ourselves with after the first assignment). We used numerous **strategies** to tackle this assignment:
+
+Read up on documentation:
+
++ <a href="http://pandas.pydata.org/pandas-docs/stable/10min.html">Pandas documentation</a> helped to understand how to select data, view the data frame, append data, etc.
++ <a href="http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M1.txt">Old data feed</a> differed from the <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson">new data feed</a>, so searching for relationships between variables of the data helped allow more familiarity with how lists and dictionaries are organized.
++ Another strategy was working through extracting the data for the variables of one single earthquake, then applying the for loop to all earthquakes and then generating the new data frame from <a href="http://docs.scipy.org/doc/numpy/reference/arrays.html">arrays</a>, reading up on ```numpy```
+
+Work with others and ask friends:
+
++ Asked for explanation from EECS friends more familiar with GitHub on concept of ```git push``` since didn't understand how to push .ipynb and .py files from Virtual Machine; learned that it involves a sequence of commands
