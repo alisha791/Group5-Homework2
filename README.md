@@ -8,11 +8,12 @@ inside your Virtual Machine:
 
     sudo apt-get install libgeos-3.3.3 python-mpltoolkits.basemap python-mpltoolkits.basemap-data python-mpltoolkits.basemap-doc
     sudo apt-get install python-pandas
+    sudo apt-get update pandas
+
+* Clone this repository (Group5-Homework2) to your desktop via UI or command ```git clone```
 
 Running Code
 -------------
-
-* Clone this repository (Group5-Homework2) to your desktop via UI or command ```git clone```
 
 * Open Virtual Machine and ```cd``` into the directory that you want to save the earthquake data to
 
@@ -26,6 +27,9 @@ Then run iPython Notebook from your machine with this command:
   + The first cell reads in the earthquake data from JSON format, loading the data into a data frame
   + The second cell examines a single earthquake incident and shows how the lists and dictionaries are represented, providing information on how to access keys, values and items
   + The third cell creates a new data frame for all the earthquake incidents after cleaning the data; it accesses the variables that we want to observe and analyze, and appends each earthquake's data points to that variable, forming arrays; the arrays form a data frame with labeled columns
+
+Caching Data
+------------
 
 * Run code cell 4 to cache data
 
