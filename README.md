@@ -4,7 +4,7 @@ Group5-Homework2
 Preliminary Setup Steps
 -----------------------
 To run this code you'll need to install the following packages
-inside your virtual machine:
+inside your Virtual Machine:
 
     sudo apt-get install libgeos-3.3.3 python-mpltoolkits.basemap python-mpltoolkits.basemap-data python-mpltoolkits.basemap-doc
     sudo apt-get install python-pandas
@@ -22,7 +22,7 @@ Then run iPython Notebook from your machine with this command:
 
 * Open iPython Notebook in your browser and import the file 'recent_earthquakes.py'. This file will be located in the clone of this repository on your desktop. 
 
-* Open 'recent earthquakes' in iPython Notebook and run each code cell to read in live earthquake data
+* Open 'recent earthquakes' in iPython Notebook and run each code cell to read in <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson">live earthquake data</a>, M1.0+ Earthquakes in Past 7 Days
 
 * Run code cell 4 to cache data
 
