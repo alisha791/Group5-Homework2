@@ -16,7 +16,11 @@ Office hours with Aaron from 11 - 1 pm
 
 ####Visualization:
 
-* 
+* Started working on visualization using data from Aaaron's code.
+* Latitude Longitude values (pulled from df) were not correct IE min lat of Alaska was -180 degrees max was 180 degrees
+* Issue fixed once given new code from the data curation part. 
+* Read online on how to use matlab.
+* Used the min, max values of longitude latitude to set values on the map / graph for each state. 
 
 ####Roadblocks:
 
@@ -25,6 +29,12 @@ Office hours with Aaron from 11 - 1 pm
 + Unfamiliar with JSON representation, and navigating and accessing keys, values, and items in the lists and dictionaries
 + Lack of working knowledge in Python, and understanding how syntax differs from R (i.e. indentation, for loops), as well as how importing libraries and using functions worked
 + How to ```git push``` .ipynb and .py files to the working repository to share code and collaborate with group
+
+#####Visualization
+
++ Unfamiliar with matlab 
++ Was only able to solve lat and lon problem for regions in the USA
++ Could not get depth and magnitude to plot correctly (somewhat worked but only applied it to one point for some reason)
 
 Problem solving was a key part to understanding how to work through the data curation stages. JSON was a completely new format that we were unfamiliar with, coupled with learning Python and working in the iPython Notebook (which our group had familiarized ourselves with after the first assignment). We used numerous **strategies** to tackle this assignment:
 
