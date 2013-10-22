@@ -92,6 +92,6 @@ def plot_quakes(quakes):
     m.plot(x, y, 'k.')
     return m
 
-plot_quakes(alaska)
+plot_quakes(california)
 
 
